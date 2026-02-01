@@ -4,9 +4,7 @@ import About from "../../components/About/About"
 import Footer from '../../components/Footer/Footer'
 const AboutPage = () => {
 
-    useEffect(() => {
-    window.scrollTo(0,0);
-    }, []);
+    
     
     return (
         <>
