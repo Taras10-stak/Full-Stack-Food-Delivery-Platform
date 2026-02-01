@@ -94,7 +94,7 @@ const CheckoutPage = () => {
       } else {
         // Cash on Delivery: directly create order
         const { data } = await axios.post(
-          'http://localhost:4000/api/orders',
+          'https://full-stack-food-delivery-platform-backend.onrender.com/api/orders/confirm',
           payload,
           { headers: authHeaders }
         );
