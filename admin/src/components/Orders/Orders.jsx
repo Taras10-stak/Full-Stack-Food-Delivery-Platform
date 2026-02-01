@@ -13,7 +13,7 @@ const Orders = () => {
     const fetchOrders = async () => {
       try {
         const response = await axios.get(
-          'http://localhost:4000/api/orders/getall',
+          'https://full-stack-food-delivery-platform-backend.onrender.com/api/orders/getall',
           {
             headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },
           }
