@@ -58,7 +58,7 @@ export const CartProvider = ({ children }) => {
   useEffect(() => {
     const token = localStorage.getItem('authToken');
     axios
-      .get('http://localhost:4000/api/cart', {
+      .get('https://full-stack-food-delivery-platform-backend.onrender.com/api/cart', {
         withCredentials: true,
         headers: { Authorization: `Bearer ${token}` },
       })
