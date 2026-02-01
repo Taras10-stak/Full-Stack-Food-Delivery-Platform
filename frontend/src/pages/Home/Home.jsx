@@ -8,9 +8,7 @@ import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
 
-    useEffect(() => {
-    window.scrollTo(0,0);
-    }, []);
+    
     
     return (
         <>
