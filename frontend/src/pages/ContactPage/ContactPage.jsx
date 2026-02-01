@@ -4,9 +4,7 @@ import Footer from '../../components/Footer/Footer'
 import Contact from "../../components/Contact/Contact"
 const ContactPage = () => {
 
-    useEffect(() => {
-    window.scrollTo(0,0);
-    }, []);
+    
     
     return (
         <>
