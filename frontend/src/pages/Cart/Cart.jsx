@@ -5,9 +5,7 @@ import CartPage from '../../components/CartPage/CartPage'
 
 const Cart = () => {
 
-    useEffect(() => {
-    window.scrollTo(0,0);
-    }, []);
+    
     
     return (
         <>
