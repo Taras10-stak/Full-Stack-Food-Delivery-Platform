@@ -4,9 +4,7 @@ import OurMenu from '../../components/OurMenu/OurMenu'
 import Footer from '../../components/Footer/Footer'
 const Menu = () => {
 
-    useEffect(() => {
-    window.scrollTo(0,0);
-    }, []);
+    
     
     return (
         <>
