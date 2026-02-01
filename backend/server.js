@@ -21,7 +21,7 @@ const __dirname = path.dirname(__filename);
 app.use(
     cors({
         origin: (origin, callback) => {
-            const allowedOrigins = ['https://full-stack-food-delivery-platform.onrender.com', 'http://localhost:5174'];
+            const allowedOrigins = ['https://full-stack-food-delivery-platform.onrender.com', 'https://full-stack-food-delivery-platform-admin.onrender.com'];
             if (!origin || allowedOrigins.includes(origin)) {
                 callback(null, true);
             } else {
